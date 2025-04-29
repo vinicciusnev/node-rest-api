@@ -1,4 +1,4 @@
-📄 #Ficha-Resumo: Pesquisa sobre Padrões de Projeto para API REST em Node.js
+📄 Ficha-Resumo: Pesquisa sobre Padrões de Projeto para API REST em Node.js
 
 📝 Introdução
 No desenvolvimento de APIs REST, adotar padrões de projeto (Design Patterns) é fundamental para garantir que o código seja bem estruturado, escalável e fácil de manter. Em projetos Node.js utilizando o framework Express, esses padrões ajudam a evitar o acúmulo de código "espaguete" e tornam o crescimento do sistema mais simples e eficiente.
