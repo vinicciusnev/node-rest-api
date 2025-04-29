@@ -1,0 +1,79 @@
+{
+    "info": {
+      "_postman_id": "12345678-abcd-efgh-ijkl-1234567890ab",
+      "name": "Minha API Node",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "GET /",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:8001/",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8001",
+            "path": [""]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "GET /produtos",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:8001/produtos",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8001",
+            "path": ["produtos"]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "GET /clientes",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:8001/clientes",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8001",
+            "path": ["clientes"]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "POST /clientes",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"nome\": \"Exemplo Cliente\",\n  \"email\": \"cliente@exemplo.com\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:8001/clientes",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8001",
+            "path": ["clientes"]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  
